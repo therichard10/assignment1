@@ -1,0 +1,33 @@
+Features of Symbian operating system:
+
+Real-time: It has a real-time, multithreaded kernel.
+Multimedia support: It supports audio, video recording, playback and streaming, and image conversion.
+Platform Security: Symbian provides a security mechanism against malware. It allows sensitive operations and can be accessed by applications which have been certified by a signing authority. In addition, it supports full encryption and certificate management.
+Internationalization support: It supports Unicode standard.
+Client-server architecture: It provides simple and high-efficient inter-process communication. This feature also eases porting of code written for other platforms to Symbian OS.
+Fully object-oriented and component-based.
+Optimized memory management.
+Flexible user interface design.
+Multi-tasking.
+A Hardware Abstraction Layer (HAL): This layer provides a consistent interface to hardware and supports device in dependency.
+-------------------------------------------------------------------------------------------------------------
+
+Symbian OS Architecture
+Symbian os is a C++-based operating system. The base component of Symbian Os is its kernel. Symbian os uses a hard real-time, multithreaded microkernel architecture and has a request-and-callback approach to services. The kernel also performs preemptive multitasking.
+
+Symbian Os consists of the following five layers-
+
+UI framework layer
+The topmost layer of Symbian OS is the UI Framework layer which provides the frameworks and libraries for constructing a user interface.
+
+Application Software layer
+This is the second layer of Symbian Os which provides services (independent of hardware, applications, or user interface) to applications and other higher-level programs. Services can be specific application technology such as messaging and multimedia.
+
+Os service layer
+This layer is also known as the middleware layer which provides a framework, servers, and libraries. 
+
+Base service layer
+This is the second last layer of the Symbian OS and it includes File servers and User library.
+
+Kernel Service layer
+The lowest layer of Symbian OS is the Kernel Services and Hardware Interface layer which contains the operating system kernel and the supporting components which abstract the interfaces to the underlying hardware, including logical and physical device drivers.
